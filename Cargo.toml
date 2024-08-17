@@ -3,7 +3,7 @@ name = "cargo-abc"
 version = "0.1.0"
 edition = "2021"
 description = "Automatically sorts dependencies in Cargo.toml files alphabetically"
-
+license = "MIT"
 
 [dependencies]
 clap = {version = "4.5.16" , features = ["derive"]}
