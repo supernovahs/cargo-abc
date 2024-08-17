@@ -1,0 +1,15 @@
+[package]
+name = "cargo-abc"
+version = "0.1.0"
+edition = "2021"
+description = "Automatically sorts dependencies in Cargo.toml files alphabetically"
+
+
+[dependencies]
+clap = {version = "4.5.16" , features = ["derive"]}
+glob = "0.3.1"
+toml_edit = "0.22.20"
+
+[[bin]]
+name = "cargo-abc"
+path = "src/main.rs"
